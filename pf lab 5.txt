@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+   while(true){
+     string pass;
+     cout<<"enter pass:";
+     cin>>pass; 
+    if(pass=="python123")
+    break;
+   }
+    return 0;
+}
